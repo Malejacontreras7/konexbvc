@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [TestNG Suite a2censo]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.acenso.test.utils.Listeners.TestListener"/>
+  </listeners>
+  <test thread-count="3" parallel="methods" name="Enviar Certifcado Retencion en la Fuente(failed)">
+    <classes>
+      <class name="com.acenso.test.CertificadosTest">
+        <methods>
+          <include name="seleccionarCertificadoRetencion"/>
+          <include name="tearDown"/>
+          <include name="inicializar"/>
+        </methods>
+      </class> <!-- com.acenso.test.CertificadosTest -->
+    </classes>
+  </test> <!-- Enviar Certifcado Retencion en la Fuente(failed) -->
+</suite> <!-- Failed suite [TestNG Suite a2censo] -->
